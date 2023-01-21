@@ -1,0 +1,23 @@
+.smile,
+.flower,
+.pizza {
+  font-size: 100px;
+}
+
+.smile {
+  color: $sun;
+}
+
+.flower {
+  color: $flower;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+.pizza {
+  color: $love;
+  position: absolute;
+  top: 400px;
+  left: 0;
+}

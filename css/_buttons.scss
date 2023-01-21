@@ -1,0 +1,28 @@
+.mainButton {
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: $peace;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.goPizza {
+  @extend .mainButton;
+  border: 2px solid $blood;
+  background-color: $love;
+}
+
+.goFlower {
+  @extend .mainButton;
+  border: 2px solid $flower;
+  background-color: $cake;
+}
+
+.containerButtons {
+  position: absolute;
+  width: 100%;
+  top: 600px;
+
+  display: flex;
+  justify-content: center;
+}
